@@ -1,0 +1,179 @@
+﻿<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Manual Prático: Árvores Frutíferas em Vasos</title>
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- FontAwesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <!-- Seu arquivo CSS local -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans antialiased selection:bg-emerald-500 selection:text-white">
+
+  <!-- Top Urgency Banner -->
+  <div class="bg-emerald-700 text-white text-xs sm:text-sm py-2.5 px-4 text-center font-bold tracking-wide sticky top-0 z-50 shadow-md">
+    <div class="max-w-4xl mx-auto flex items-center justify-center gap-2 flex-wrap">
+      <span class="inline-block bg-red-600 text-white px-2 py-0.5 rounded text-[10px] font-extrabold uppercase animate-pulse">Oferta Especial</span>
+      <span>Desconto de 89% liberado até meia-noite!</span>
+      <span class="bg-emerald-900/60 px-2.5 py-0.5 rounded font-mono text-yellow-300 border border-emerald-500/30" id="timer">14:59</span>
+    </div>
+  </div>
+
+  <!-- Hero Section -->
+  <header class="max-w-4xl mx-auto px-4 pt-8 pb-12 text-center">
+    <div class="inline-flex items-center gap-2 bg-emerald-100 text-emerald-800 px-3.5 py-1.5 rounded-full text-xs font-semibold mb-6 border border-emerald-200">
+      <i class="fa-solid fa-seedling text-emerald-600"></i>
+      <span>Guia Prático para Espaços Reduzidos</span>
+    </div>
+    
+    <h1 class="text-3xl sm:text-5xl font-black text-gray-900 leading-tight mb-4 tracking-tight">
+      Colha <span class="text-emerald-600 underline decoration-yellow-400 decoration-4">Frutas Orgânicas</span> no Quintal ou Varanda do Seu Apê!
+    </h1>
+    
+    <p class="text-lg sm:text-xl text-gray-600 max-w-2xl mx-auto mb-8 font-normal leading-relaxed">
+      Aprenda o método simples para cultivar jabuticaba, limão, morango e muito mais em vasos, sem precisar de sítio ou experiência prévia.
+    </p>
+
+    <!-- Hero Image / Visual Mockup -->
+    <div class="relative max-w-2xl mx-auto mb-8 rounded-2xl overflow-hidden shadow-2xl border-4 border-white bg-emerald-900">
+      <img src="images/capa-ebook.jpg" alt="Árvores Frutíferas em Vasos" class="w-full h-72 sm:h-96 object-cover opacity-90">
+      <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent flex items-end justify-between p-6 text-white text-left">
+        <div>
+          <span class="text-xs uppercase tracking-widest text-emerald-400 font-bold block mb-1">E-book Digital + Bônus</span>
+          <h2 class="text-xl sm:text-2xl font-bold">Manual Definitivo de Frutíferas em Vasos</h2>
+        </div>
+        <div class="text-right">
+          <span class="text-xs line-through text-gray-300 block">De R$ 97</span>
+          <span class="text-3xl font-extrabold text-yellow-400">R$ 10,00</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Main CTA Button -->
+    <div class="max-w-md mx-auto">
+      <a href="https://go.pepperpay.com.br/zceho" class="group relative flex items-center justify-center gap-3 bg-emerald-500 hover:bg-emerald-600 text-white font-extrabold text-xl py-4 px-8 rounded-xl shadow-lg shadow-emerald-500/40 hover:shadow-emerald-500/60 transform hover:-translate-y-0.5 transition-all duration-200 uppercase tracking-wider border-b-4 border-emerald-700">
+        <i class="fa-solid fa-download text-2xl group-hover:bounce"></i>
+        <span>Quero Meu Guia por R$ 10</span>
+      </a>
+      <p class="text-xs text-gray-500 mt-3 flex items-center justify-center gap-2">
+        <i class="fa-solid fa-shield-halved text-emerald-600"></i> Acesso Imediato no Seu E-mail • Compra 100% Segura
+      </p>
+    </div>
+  </header>
+
+  <!-- Problem & Solution Section -->
+  <section class="bg-white py-12 border-y border-gray-200">
+    <div class="max-w-4xl mx-auto px-4">
+      <div class="text-center mb-10">
+        <h2 class="text-2xl sm:text-3xl font-bold text-gray-900 mb-3">Você acha que precisa de um sítio para ter frutas frescas?</h2>
+        <p class="text-gray-600">Veja como é simples mudar isso hoje mesmo.</p>
+      </div>
+
+      <div class="grid md:grid-cols-2 gap-6">
+        <div class="bg-red-50 p-6 rounded-2xl border border-red-100">
+          <h3 class="text-lg font-bold text-red-700 mb-4 flex items-center gap-2">
+            <i class="fa-solid fa-xmark-circle"></i> Sem o método correto:
+          </h3>
+          <ul class="space-y-3 text-sm text-gray-700">
+            <li class="flex items-start gap-2"><i class="fa-solid fa-minus text-red-400 mt-1"></i> As mudas secam e morrem em poucas semanas.</li>
+            <li class="flex items-start gap-2"><i class="fa-solid fa-minus text-red-400 mt-1"></i> Gasto desnecessário com adubos errados.</li>
+            <li class="flex items-start gap-2"><i class="fa-solid fa-minus text-red-400 mt-1"></i> Pragas destroem as folhas e os frutos.</li>
+            <li class="flex items-start gap-2"><i class="fa-solid fa-minus text-red-400 mt-1"></i> Frustração por não ver a planta dar frutos.</li>
+          </ul>
+        </div>
+
+        <div class="bg-emerald-50 p-6 rounded-2xl border border-emerald-100">
+          <h3 class="text-lg font-bold text-emerald-800 mb-4 flex items-center gap-2">
+            <i class="fa-solid fa-check-circle"></i> Com o nosso Guia de R$ 10:
+          </h3>
+          <ul class="space-y-3 text-sm text-gray-700">
+            <li class="flex items-start gap-2"><i class="fa-solid fa-check text-emerald-600 mt-1"></i> Escolha do vaso e solo ideais para cada espécie.</li>
+            <li class="flex items-start gap-2"><i class="fa-solid fa-check text-emerald-600 mt-1"></i> Adubação caseira e barata de alta eficiência.</li>
+            <li class="flex items-start gap-2"><i class="fa-solid fa-check text-emerald-600 mt-1"></i> Poda de condução para manter o tamanho compacto.</li>
+            <li class="flex items-start gap-2"><i class="fa-solid fa-check text-emerald-600 mt-1"></i> Frutas orgânicas e colheita o ano inteiro!</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pricing Offer Box -->
+  <section class="py-12 max-w-xl mx-auto px-4">
+    <div class="bg-white rounded-2xl shadow-xl border-2 border-emerald-500 overflow-hidden text-center p-6 sm:p-8">
+      <span class="bg-emerald-100 text-emerald-800 text-xs font-bold px-3 py-1 rounded-full uppercase">Acesso Imediato</span>
+      <h2 class="text-2xl font-black text-gray-900 mt-3">Manual Frutíferas em Vasos</h2>
+      <p class="text-xs text-gray-500 mt-1">Formato Digital PDF (Leia no celular ou imprima)</p>
+
+      <div class="my-6">
+        <span class="text-gray-400 line-through text-sm">De R$ 97,00</span>
+        <div class="text-5xl font-black text-emerald-600 my-1">R$ 10<span class="text-2xl font-bold">,00</span></div>
+        <span class="text-xs text-emerald-700 font-semibold bg-emerald-50 px-3 py-1 rounded-full inline-block">Pagamento único • Sem mensalidades</span>
+      </div>
+
+      <a href="https://go.pepperpay.com.br/zceho" class="w-full block bg-emerald-500 hover:bg-emerald-600 text-white font-extrabold text-xl py-4 px-6 rounded-xl shadow-lg shadow-emerald-500/30 transition uppercase tracking-wide border-b-4 border-emerald-700">
+        Baixar Agora por R$ 10
+      </a>
+
+      <div class="mt-6 flex items-center justify-center gap-4 text-gray-400 text-xl">
+        <i class="fa-brands fa-pix text-emerald-600" title="PIX"></i>
+        <i class="fa-solid fa-credit-card" title="Cartão"></i>
+        <i class="fa-solid fa-lock text-gray-600 text-sm" title="Seguro"></i>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-900 text-gray-400 text-xs py-8 text-center border-t border-gray-800 mt-12">
+    <div class="max-w-4xl mx-auto px-4 space-y-3">
+      <p>© 2026 Guia Árvores Frutíferas em Vasos. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+  <!-- Notification Toast (Social Proof Simulation) -->
+  <div id="toast" class="fixed bottom-4 left-4 bg-white border border-gray-200 p-3.5 rounded-xl shadow-2xl flex items-center gap-3 z-50 opacity-0 pointer-events-none transition-all duration-300 max-w-xs">
+    <div class="w-9 h-9 bg-emerald-500 text-white rounded-full flex items-center justify-center font-bold text-xs flex-shrink-0">
+      <i class="fa-solid fa-bag-shopping"></i>
+    </div>
+    <div>
+      <p class="text-xs font-bold text-gray-900" id="toast-name">Juliana M.</p>
+      <p class="text-[11px] text-gray-500">Acabou de adquirir o Guia por R$ 10,00</p>
+      <span class="text-[9px] text-emerald-600 font-semibold">Há 2 minutos</span>
+    </div>
+  </div>
+
+  <!-- Countdown Script & Sales Pop-up -->
+  <script>
+    let time = 15 * 60;
+    const timerElement = document.getElementById('timer');
+    setInterval(() => {
+      const minutes = Math.floor(time / 60);
+      let seconds = time % 60;
+      seconds = seconds < 10 ? '0' + seconds : seconds;
+      timerElement.innerText = `${minutes}:${seconds}`;
+      if (time > 0) time--;
+    }, 1000);
+
+    const names = ['Ana P. (Curitiba)', 'Carlos E. (São Paulo)', 'Fernanda R. (Belo Horizonte)', 'Lucas M. (Porto Alegre)', 'Roberto S. (Salvador)'];
+    const toast = document.getElementById('toast');
+    const toastName = document.getElementById('toast-name');
+
+    function showToast() {
+      const randomName = names[Math.floor(Math.random() * names.length)];
+      toastName.innerText = randomName;
+      toast.classList.remove('opacity-0', 'pointer-events-none');
+      toast.classList.add('toast-active');
+
+      setTimeout(() => {
+        toast.classList.remove('toast-active');
+        toast.classList.add('opacity-0', 'pointer-events-none');
+      }, 5000);
+    }
+
+    setInterval(showToast, 12000);
+    setTimeout(showToast, 3000);
+  </script>
+</body>
+</html>

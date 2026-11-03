@@ -1,0 +1,20 @@
+/* Animações e ajustes extras personalizados */
+@keyframes pulse-fast { 
+  0%, 100% { opacity: 1; } 
+  50% { opacity: 0.5; } 
+}
+
+.animate-pulse-fast { 
+  animation: pulse-fast 1s cubic-bezier(0.4, 0, 0.6, 1) infinite; 
+}
+
+@keyframes toast-slide { 
+  0% { transform: translateY(100px); opacity: 0; } 
+  10% { transform: translateY(0); opacity: 1; } 
+  90% { transform: translateY(0); opacity: 1; } 
+  100% { transform: translateY(100px); opacity: 0; } 
+}
+
+.toast-active { 
+  animation: toast-slide 5s ease-in-out forwards; 
+}
